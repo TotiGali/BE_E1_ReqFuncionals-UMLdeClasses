@@ -1,0 +1,262 @@
+Objetivo: Gestión de inventario para mejorar el control sobre productos y facilitar los procesos de recepción, almaceniamiento y ditribución.
+
+
+
+Requerimientos Funcionales:
+
+Registrar nuevos productos: La aplicación debe permitir a los usuarios registrar nuevos productos, se tienen que especificar los detalles del producto: Nombre, Categoría, Precio, Cantidad y fecha de caducidad.
+
+Búsqueda de productos: Los usuarios deben poder buscar productos usando el nombre, categoría y disponibilidad.
+
+Generación de reportes: El sistema debe poder generar reportes de forma periodica y permitir descarlos en PDF y Excel.
+
+Notificacions Automáticas: El sistema debe enviar alertas por correo electrónico para productos cercanos a la fecha de caducidad o bajo stock.
+
+
+
+
+Requerimientos no funcionales:
+
+Usabilidad: Diseño responsivo para ser usable desde distintos tamaños de dispositivos.Interfaz intuitiva y fácil de usar. 
+
+Seguridad: Implementación de autentificación de usuarios para controlar el acceso y proteger la información sensible.
+
+Disponibilidad: El sistema tiene que tener una disponibilidad del 99%.
+
+Rendimineto: La mayoría de las operaciones se deben completar en menos de dos segundos.
+
+Escalabilidad: Tiene que tener la capacidad de manejar incrementos en el número de usuarios y productos sin afectar el rendimiento.
+
+
+
+
+
+
+
+Recomendaciones/Ambiguedades:
+
+Funcionales:
+
+Registro de usuarios: La aplicación debe permitir ingresar y registrar usuarios por ellos mismos o a traves de un administrador -> A través de un Administrador.
+
+Ambiguedad: Tenemos más de un tipo de usuario? Cómo interactua cada uno? -> Sí, tenemos usuarios y administradores.
+
+Recomendación: Añadir comentarios sobre cada producto en los reportes -> Sí, tenemos que poder añadir comentarios en los reportes de forma opcional. 
+
+Ambiguedad: Las notificaciones sobre un producto se realizan a todos los usuarios o solamente al que ha publicado el producto? -> Opción para que los usuarios eligan los productos de los que quieren recibir notificaciones.
+
+
+Recomendación: Se deben añadir proveedores para los productos? -> No.
+
+Recomendación: Añadir fecha en los reportes y notificaciones. -> Sí.
+
+
+
+No funcionales:
+
+Contrar servidores externos. AWS. -> Sí.
+
+Recomendación: Crear factores de multiple atentificación. -> No.
+
+
+
+
+
+
+
+Clases /  Entidades:
+
+Clase: Persona: 
+	Atributos: +nombre: String, +apellidos: String, +id: Int, +correo: String, +telefono: Int, -constrasena: String, +fechaNacimiento: Date, +rol: String, +fechaCreacion: Date. 
+	Métodos: - -iniciarSesion(String correos,String contrasenas): Boolean, +get y set para todos los tributos, -cerrarSesion():void.
+
+Subclase: Usuario hereda de Persona. 
+	Atributos: +prouctosPublicados: List<Producto>, +reportesRecibidos: List<Reporte> , +productosDespublicados: List<Producto>.
+	Métodos: +publicarProducto(Producto productos): Producto, +despublicarProducto(Producto poductos): Boolean
+
+Subclase: Admin hereda de Persona.
+	Atributos: +listiaUsuariosCreados: List<Usuario>, +listaUsuariosEliminados: List<Ususario>
+	Métodos: +crearUsuario(Usuario usuarios): Boolean, +eliminarUsuario(int ID)
+
+
+
+
+
+Clase: Producto: 
+	Atributos: +nombre: String, +id: Int, +categoria: String, +precio: Float, +cantidad: Int, +fechaCaducidad: Date.
+	Métodos: +crearProducto():Boolean, elminarProducto():Boolean, actualizarProducto(Int stock, Date fechaCaducidad):Boolean;
+
+Clase: Inventario:
+	Atributos: +productos: List<Producto>
+	Métodos:  +addProducto(Producto productos): void, +buscarProductoPorNombre(String nombre): List<Producto>,  +buscarProductoPorCategoria(Strign categoria): List<Producto>, +buscarProductoPorDisponibilidad(String disponibilidad): List<Producto>, +eliminarProducto(Producto productos): void, +crearlistaNotificacion(Producto productos): List<Producto>
+	
+
+
+
+
+Clase: Reporte: 
+	Atributos: +nombre: String, +id: Int, +fecha: Date, +inventario: Inventario
+	Métodos: +generarReportePFD(): File, +generaReporteExcel(): File, -enviarReporte(File fichero);
+
+
+
+
+
+Clase: Notificación:
+	Atributos: +fecha: Date, +Texto: Srting, +id: Int
+	Métodos: +generarNotificacion(List<Producto>, String texto, Date fecha, int id): String: mensaje, +enviarNotificación(mensaje, email): void (enviaria las notificaciones por correo);
+
+
+
+
+
+
+
+
+Relaciones:
+
+Un usuario publica de cero a muchos productos. Cardinalidad: 0..*
+
+Un producto puede estar publicado por un usuario. Cardinalidad: 1
+
+Un reporte puede tener de uno a multiples productos. Caridnalidad: 1..*
+
+Un producto puede existir en 0 o más reportes. Cardinalidad: 0..*
+
+Un usuario puede recibir de 0 a multiples notificaciones. Caridnalidad: 0..*
+
+Una notificación puede ser enviada de uno a multiples usuarios. Cardinalidad: 1..*
+
+Un usuario puede buscar de uno a multiples productos. Cardinalidad: 1..*
+
+Un producto puede ser buscado por cero o más usuarios. Cardinalidad: 0..*
+
+
+
+
+Tipos de relaciones:
+
+Persona - Usuario: Herencia.
+Persona - Admin: Herencia.
+Usuario - Admin: Asociación.
+Producto - Inventario: Composición.
+Usruario - Inventario: Asociación.
+Inventario - Reporte: Asociación.
+Inventario - Notificación: Asociación.
+Notificación - Usuario: Asocicación.
+Usuario - Producto: Asociación.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ejemplos código:
+
+
+public void main (arg[]){
+inciciarSesion(sergi@gmail.com,1234567);
+
+public Product PublicarProductos(Producto productos){
+podructos.nombre = 
+}
+
+
+
+public class Persona(){
+
+Opción1: iniciarSesion(String correos, String contrasenas){
+	if(this.correo == correos){
+		if(this.contrasena == contrasenas){
+			console.out.println("Inicio sesión correcto");
+			return True;
+		}
+		else{
+			console.out.println("Contraseña incorrecta");
+			return False;
+		}
+	}
+	else{
+		console.out.println("Correo incorrecto");
+		return False;
+	}
+	
+}
+
+
+Opción2: iniciarSesion(String correos, String contraseñas){
+	if(this.correo == correos && this.contrasena == contrasenas){
+		console.out.println("Inicio correcto");
+		return True;
+	}
+	else{
+		console.out.println("Inicio incorrecto");
+		return False;
+	}
+	
+}
+}
+
+
+
+
+
+
+
+
+
+public class Producto(
+
+
+
+
+public getId(){
+ return id;
+}
+}
+
+
+
+
+
+
+
+
+
+producto.id('2').actualizarProducto(20, 10/06/2024);
+
+
+public Boolean actualizarProducto(Int stock, Date fechaCaducidad){
+	if(stock != 'null'){	
+		this.cantidad = stock;
+
+	} 
+	if(fechaCaducidad != 'null'){	
+		this.fechaCaducidad = fechaCaducidad;
+	} 
+	return true;
+}
+
+
+public Boolean actualizarProducto(){
+	if(stock != 'null'){	
+		this.cantidad = stock;
+
+	} 
+	if(fechaCaducidad != 'null'){	
+		this.fechaCaducidad = fechaCaducidad;
+	} 
+	return true;
+}
+
+

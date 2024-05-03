@@ -1,0 +1,565 @@
+%PDF-1.3
+1 0 obj
+<< /Type /Catalog
+/Outlines 2 0 R
+/Pages 3 0 R >>
+endobj
+2 0 obj
+<< /Type /Outlines /Count 0 >>
+endobj
+3 0 obj
+<< /Type /Pages
+/Kids [6 0 R
+11 0 R
+13 0 R
+15 0 R
+17 0 R
+]
+/Count 5
+/Resources <<
+/ProcSet 4 0 R
+/Font << 
+/F1 8 0 R
+/F2 9 0 R
+/F3 10 0 R
+>>
+>>
+/MediaBox [0.000 0.000 595.280 841.890]
+ >>
+endobj
+4 0 obj
+[/PDF /Text ]
+endobj
+5 0 obj
+<<
+/Creator (DOMPDF)
+/CreationDate (D:20240424110206+00'00')
+/ModDate (D:20240424110206+00'00')
+>>
+endobj
+6 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Contents 7 0 R
+>>
+endobj
+7 0 obj
+<<
+/Length 12819 >>
+stream
+
+0.000 0.000 0.000 rg
+BT 34.016 775.827 Td /F1 18.0 Tf  [(Objectivo: un sistema de gestion de tramites por un gobierno local.)] TJ ET
+BT 34.016 739.503 Td /F1 18.0 Tf  [(Requerimientos Funcionales:)] TJ ET
+0.000 0.000 0.000 RG
+57.816 711.986 m 
+57.816 712.536 57.589 713.082 57.201 713.471 c
+56.812 713.860 56.266 714.086 55.716 714.086 c
+55.166 714.086 54.620 713.860 54.231 713.471 c
+53.842 713.082 53.616 712.536 53.616 711.986 c
+53.616 711.436 53.842 710.890 54.231 710.501 c
+54.620 710.113 55.166 709.886 55.716 709.886 c
+56.266 709.886 56.812 710.113 57.201 710.501 c
+57.589 710.890 57.816 711.436 57.816 711.986 c f
+BT 64.016 708.881 Td /F2 12.0 Tf  [(Crear cuenta personal \(DNI,fecha de nacimiento, nombre, appelidos, email, telephono, direcion, )] TJ ET
+BT 64.016 694.625 Td /F2 12.0 Tf  [(contrasena, 2fa \))] TJ ET
+57.816 683.474 m 
+57.816 684.024 57.589 684.570 57.201 684.959 c
+56.812 685.348 56.266 685.574 55.716 685.574 c
+55.166 685.574 54.620 685.348 54.231 684.959 c
+53.842 684.570 53.616 684.024 53.616 683.474 c
+53.616 682.924 53.842 682.378 54.231 681.989 c
+54.620 681.601 55.166 681.374 55.716 681.374 c
+56.266 681.374 56.812 681.601 57.201 681.989 c
+57.589 682.378 57.816 682.924 57.816 683.474 c f
+BT 64.016 680.369 Td /F2 12.0 Tf  [(Crear solicitud/permisos \(buscar/ver los permisos, pedir permiso, rellenar informaciones\))] TJ ET
+57.816 669.218 m 
+57.816 669.768 57.589 670.314 57.201 670.703 c
+56.812 671.092 56.266 671.318 55.716 671.318 c
+55.166 671.318 54.620 671.092 54.231 670.703 c
+53.842 670.314 53.616 669.768 53.616 669.218 c
+53.616 668.668 53.842 668.122 54.231 667.733 c
+54.620 667.345 55.166 667.118 55.716 667.118 c
+56.266 667.118 56.812 667.345 57.201 667.733 c
+57.589 668.122 57.816 668.668 57.816 669.218 c f
+BT 64.016 666.113 Td /F2 12.0 Tf  [(Presentar documentos \(rellenar documento, subir archivo\))] TJ ET
+57.816 654.962 m 
+57.816 655.512 57.589 656.058 57.201 656.447 c
+56.812 656.836 56.266 657.062 55.716 657.062 c
+55.166 657.062 54.620 656.836 54.231 656.447 c
+53.842 656.058 53.616 655.512 53.616 654.962 c
+53.616 654.412 53.842 653.866 54.231 653.477 c
+54.620 653.089 55.166 652.862 55.716 652.862 c
+56.266 652.862 56.812 653.089 57.201 653.477 c
+57.589 653.866 57.816 654.412 57.816 654.962 c f
+BT 64.016 651.857 Td /F2 12.0 Tf  [(Realizar pagos \(pago por targeta, o cuenta bancaria\))] TJ ET
+57.816 640.706 m 
+57.816 641.256 57.589 641.802 57.201 642.191 c
+56.812 642.580 56.266 642.806 55.716 642.806 c
+55.166 642.806 54.620 642.580 54.231 642.191 c
+53.842 641.802 53.616 641.256 53.616 640.706 c
+53.616 640.156 53.842 639.610 54.231 639.221 c
+54.620 638.833 55.166 638.606 55.716 638.606 c
+56.266 638.606 56.812 638.833 57.201 639.221 c
+57.589 639.610 57.816 640.156 57.816 640.706 c f
+BT 64.016 637.601 Td /F2 12.0 Tf  [(Recibir notifications de estado \(recibir email cuando el estado de una solicitud cambia\))] TJ ET
+57.816 626.450 m 
+57.816 627.000 57.589 627.546 57.201 627.935 c
+56.812 628.324 56.266 628.550 55.716 628.550 c
+55.166 628.550 54.620 628.324 54.231 627.935 c
+53.842 627.546 53.616 627.000 53.616 626.450 c
+53.616 625.900 53.842 625.354 54.231 624.965 c
+54.620 624.577 55.166 624.350 55.716 624.350 c
+56.266 624.350 56.812 624.577 57.201 624.965 c
+57.589 625.354 57.816 625.900 57.816 626.450 c f
+BT 64.016 623.345 Td /F2 12.0 Tf  [(Gestionar/programmar citas \(ver las disponibilidad, elegir, recibir confirmacion, cancelar, cambiar\))] TJ ET
+57.816 612.194 m 
+57.816 612.744 57.589 613.290 57.201 613.679 c
+56.812 614.068 56.266 614.294 55.716 614.294 c
+55.166 614.294 54.620 614.068 54.231 613.679 c
+53.842 613.290 53.616 612.744 53.616 612.194 c
+53.616 611.644 53.842 611.098 54.231 610.709 c
+54.620 610.321 55.166 610.094 55.716 610.094 c
+56.266 610.094 56.812 610.321 57.201 610.709 c
+57.589 611.098 57.816 611.644 57.816 612.194 c f
+BT 64.016 609.089 Td /F2 12.0 Tf  [(Aceder base de dato preguntas frecuentes)] TJ ET
+57.816 597.938 m 
+57.816 598.488 57.589 599.034 57.201 599.423 c
+56.812 599.812 56.266 600.038 55.716 600.038 c
+55.166 600.038 54.620 599.812 54.231 599.423 c
+53.842 599.034 53.616 598.488 53.616 597.938 c
+53.616 597.388 53.842 596.842 54.231 596.453 c
+54.620 596.065 55.166 595.838 55.716 595.838 c
+56.266 595.838 56.812 596.065 57.201 596.453 c
+57.589 596.842 57.816 597.388 57.816 597.938 c f
+BT 64.016 594.833 Td /F2 12.0 Tf  [(Recibir asistencia con chatbot \(escribir a un chatbot et obtener una respuesta\))] TJ ET
+57.816 583.682 m 
+57.816 584.232 57.589 584.778 57.201 585.167 c
+56.812 585.556 56.266 585.782 55.716 585.782 c
+55.166 585.782 54.620 585.556 54.231 585.167 c
+53.842 584.778 53.616 584.232 53.616 583.682 c
+53.616 583.132 53.842 582.586 54.231 582.197 c
+54.620 581.809 55.166 581.582 55.716 581.582 c
+56.266 581.582 56.812 581.809 57.201 582.197 c
+57.589 582.586 57.816 583.132 57.816 583.682 c f
+BT 64.016 580.577 Td /F2 12.0 Tf  [(Buscar, revisar y aprobar las solicitudes, anadir un mensaje \(elegir el estado, marcar lista de problema, )] TJ ET
+BT 64.016 566.321 Td /F2 12.0 Tf  [(cambiar el estatus\))] TJ ET
+57.816 555.170 m 
+57.816 555.720 57.589 556.266 57.201 556.655 c
+56.812 557.044 56.266 557.270 55.716 557.270 c
+55.166 557.270 54.620 557.044 54.231 556.655 c
+53.842 556.266 53.616 555.720 53.616 555.170 c
+53.616 554.620 53.842 554.074 54.231 553.685 c
+54.620 553.297 55.166 553.070 55.716 553.070 c
+56.266 553.070 56.812 553.297 57.201 553.685 c
+57.589 554.074 57.816 554.620 57.816 555.170 c f
+BT 64.016 552.065 Td /F2 12.0 Tf  [(Generar de reportes estadisticos de forma periodica y permitir descarlos en PDF y Excel.)] TJ ET
+BT 34.016 517.167 Td /F1 18.0 Tf  [(Requerimientos no funcionales:)] TJ ET
+57.816 489.650 m 
+57.816 490.200 57.589 490.746 57.201 491.135 c
+56.812 491.524 56.266 491.750 55.716 491.750 c
+55.166 491.750 54.620 491.524 54.231 491.135 c
+53.842 490.746 53.616 490.200 53.616 489.650 c
+53.616 489.100 53.842 488.554 54.231 488.165 c
+54.620 487.777 55.166 487.550 55.716 487.550 c
+56.266 487.550 56.812 487.777 57.201 488.165 c
+57.589 488.554 57.816 489.100 57.816 489.650 c f
+BT 64.016 486.545 Td /F2 12.0 Tf  [(Usabilidad: intuitiva, de todos dispositivos \(movil, tabletas, computadoras\))] TJ ET
+57.816 475.394 m 
+57.816 475.944 57.589 476.490 57.201 476.879 c
+56.812 477.268 56.266 477.494 55.716 477.494 c
+55.166 477.494 54.620 477.268 54.231 476.879 c
+53.842 476.490 53.616 475.944 53.616 475.394 c
+53.616 474.844 53.842 474.298 54.231 473.909 c
+54.620 473.521 55.166 473.294 55.716 473.294 c
+56.266 473.294 56.812 473.521 57.201 473.909 c
+57.589 474.298 57.816 474.844 57.816 475.394 c f
+BT 64.016 472.289 Td /F2 12.0 Tf  [(Acessibilidad: en conformidad con las normas, como es una administracion tiene obligaciones)] TJ ET
+57.816 461.138 m 
+57.816 461.688 57.589 462.234 57.201 462.623 c
+56.812 463.012 56.266 463.238 55.716 463.238 c
+55.166 463.238 54.620 463.012 54.231 462.623 c
+53.842 462.234 53.616 461.688 53.616 461.138 c
+53.616 460.588 53.842 460.042 54.231 459.653 c
+54.620 459.265 55.166 459.038 55.716 459.038 c
+56.266 459.038 56.812 459.265 57.201 459.653 c
+57.589 460.042 57.816 460.588 57.816 461.138 c f
+BT 64.016 458.033 Td /F2 12.0 Tf  [(Seguridad: proteccion de datos personales,Cifrage datos sensibles,Authenticacion multifactor por todos)] TJ ET
+57.816 446.882 m 
+57.816 447.432 57.589 447.978 57.201 448.367 c
+56.812 448.756 56.266 448.982 55.716 448.982 c
+55.166 448.982 54.620 448.756 54.231 448.367 c
+53.842 447.978 53.616 447.432 53.616 446.882 c
+53.616 446.332 53.842 445.786 54.231 445.397 c
+54.620 445.009 55.166 444.782 55.716 444.782 c
+56.266 444.782 56.812 445.009 57.201 445.397 c
+57.589 445.786 57.816 446.332 57.816 446.882 c f
+BT 64.016 443.777 Td /F2 12.0 Tf  [(Disponibilidad: 99.8%,)] TJ ET
+57.816 432.626 m 
+57.816 433.176 57.589 433.722 57.201 434.111 c
+56.812 434.500 56.266 434.726 55.716 434.726 c
+55.166 434.726 54.620 434.500 54.231 434.111 c
+53.842 433.722 53.616 433.176 53.616 432.626 c
+53.616 432.076 53.842 431.530 54.231 431.141 c
+54.620 430.753 55.166 430.526 55.716 430.526 c
+56.266 430.526 56.812 430.753 57.201 431.141 c
+57.589 431.530 57.816 432.076 57.816 432.626 c f
+BT 64.016 429.521 Td /F2 12.0 Tf  [(Rendimiento: tiempos de respuesta rapidos, incluso en los picos)] TJ ET
+57.816 418.370 m 
+57.816 418.920 57.589 419.466 57.201 419.855 c
+56.812 420.244 56.266 420.470 55.716 420.470 c
+55.166 420.470 54.620 420.244 54.231 419.855 c
+53.842 419.466 53.616 418.920 53.616 418.370 c
+53.616 417.820 53.842 417.274 54.231 416.885 c
+54.620 416.497 55.166 416.270 55.716 416.270 c
+56.266 416.270 56.812 416.497 57.201 416.885 c
+57.589 417.274 57.816 417.820 57.816 418.370 c f
+BT 64.016 415.265 Td /F2 12.0 Tf  [(Escalabilidad: Tiene que tener la capacidad de manejar incrementos en el número de usuarios y )] TJ ET
+BT 64.016 401.009 Td /F2 12.0 Tf  [(productos sin afectar el rendimiento + capacidad pico de demanda)] TJ ET
+BT 34.016 359.269 Td /F1 24.0 Tf  [(Recomendaciones/Ambiguedades:)] TJ ET
+57.816 329.186 m 
+57.816 329.736 57.589 330.282 57.201 330.671 c
+56.812 331.060 56.266 331.286 55.716 331.286 c
+55.166 331.286 54.620 331.060 54.231 330.671 c
+53.842 330.282 53.616 329.736 53.616 329.186 c
+53.616 328.636 53.842 328.090 54.231 327.701 c
+54.620 327.313 55.166 327.086 55.716 327.086 c
+56.266 327.086 56.812 327.313 57.201 327.701 c
+57.589 328.090 57.816 328.636 57.816 329.186 c f
+BT 64.016 326.081 Td /F2 12.0 Tf  [(Los empleado pueden crear cuentas por otros empleados.)] TJ ET
+57.816 314.930 m 
+57.816 315.480 57.589 316.026 57.201 316.415 c
+56.812 316.804 56.266 317.030 55.716 317.030 c
+55.166 317.030 54.620 316.804 54.231 316.415 c
+53.842 316.026 53.616 315.480 53.616 314.930 c
+53.616 314.380 53.842 313.834 54.231 313.445 c
+54.620 313.057 55.166 312.830 55.716 312.830 c
+56.266 312.830 56.812 313.057 57.201 313.445 c
+57.589 313.834 57.816 314.380 57.816 314.930 c f
+BT 64.016 311.825 Td /F2 12.0 Tf  [(La solicitudes/tasas y otros elementos no pueden ser eliminados una vez creados, pero su estado puede )] TJ ET
+BT 64.016 297.569 Td /F2 12.0 Tf  [(cambiar.)] TJ ET
+57.816 286.418 m 
+57.816 286.968 57.589 287.514 57.201 287.903 c
+56.812 288.292 56.266 288.518 55.716 288.518 c
+55.166 288.518 54.620 288.292 54.231 287.903 c
+53.842 287.514 53.616 286.968 53.616 286.418 c
+53.616 285.868 53.842 285.322 54.231 284.933 c
+54.620 284.545 55.166 284.318 55.716 284.318 c
+56.266 284.318 56.812 284.545 57.201 284.933 c
+57.589 285.322 57.816 285.868 57.816 286.418 c f
+BT 64.016 283.313 Td /F2 12.0 Tf  [(FAQ: los empleados pueden anadir/eliminar preguntas, y de vez en cuando se puede publicar la FAQ )] TJ ET
+BT 64.016 269.057 Td /F2 12.0 Tf  [(actualizada. Las preguntas no tienen duenos)] TJ ET
+57.816 257.906 m 
+57.816 258.456 57.589 259.002 57.201 259.391 c
+56.812 259.780 56.266 260.006 55.716 260.006 c
+55.166 260.006 54.620 259.780 54.231 259.391 c
+53.842 259.002 53.616 258.456 53.616 257.906 c
+53.616 257.356 53.842 256.810 54.231 256.421 c
+54.620 256.033 55.166 255.806 55.716 255.806 c
+56.266 255.806 56.812 256.033 57.201 256.421 c
+57.589 256.810 57.816 257.356 57.816 257.906 c f
+BT 64.016 254.801 Td /F2 12.0 Tf  [(El chatbot tiene al max una sola misma conversacion con un usario.)] TJ ET
+57.816 243.650 m 
+57.816 244.200 57.589 244.746 57.201 245.135 c
+56.812 245.524 56.266 245.750 55.716 245.750 c
+55.166 245.750 54.620 245.524 54.231 245.135 c
+53.842 244.746 53.616 244.200 53.616 243.650 c
+53.616 243.100 53.842 242.554 54.231 242.165 c
+54.620 241.777 55.166 241.550 55.716 241.550 c
+56.266 241.550 56.812 241.777 57.201 242.165 c
+57.589 242.554 57.816 243.100 57.816 243.650 c f
+BT 64.016 240.545 Td /F2 12.0 Tf  [(Documento se puede crear o subir)] TJ ET
+57.816 229.394 m 
+57.816 229.944 57.589 230.490 57.201 230.879 c
+56.812 231.268 56.266 231.494 55.716 231.494 c
+55.166 231.494 54.620 231.268 54.231 230.879 c
+53.842 230.490 53.616 229.944 53.616 229.394 c
+53.616 228.844 53.842 228.298 54.231 227.909 c
+54.620 227.521 55.166 227.294 55.716 227.294 c
+56.266 227.294 56.812 227.521 57.201 227.909 c
+57.589 228.298 57.816 228.844 57.816 229.394 c f
+BT 64.016 226.289 Td /F2 12.0 Tf  [(Contractar servicio externo por los servidores, los pagos, y los chatbot.)] TJ ET
+BT 34.016 184.549 Td /F1 24.0 Tf  [(Clases / Entidades:)] TJ ET
+BT 34.016 151.361 Td /F2 12.0 Tf  [(Clase: Persona: Atributos: +dni: String +nombre: String +apellidos: String +id: Int +correo: String )] TJ ET
+BT 34.016 137.105 Td /F2 12.0 Tf  [(+telefono: Int -constrasena: String -2fa: String +fechaNacimiento: Date +rol: String +fechaCreacion: Date.)] TJ ET
+BT 34.016 112.294 Td /F3 12.0 Tf  [(Métodos:)] TJ ET
+BT 34.016 99.844 Td /F3 12.0 Tf  [(    -iniciarSesion\(String dni,String contrasenas, String 2fa\): Boolean)] TJ ET
+BT 34.016 87.394 Td /F3 12.0 Tf  [(    -cerrarSesion\(\):void.)] TJ ET
+BT 34.016 74.943 Td /F3 12.0 Tf  [(    +get y set para todos los tributos,)] TJ ET
+endstream
+endobj
+8 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F1
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+>>
+endobj
+9 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F2
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F3
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Contents 12 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 3639 >>
+stream
+
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+BT 34.016 784.469 Td /F2 12.0 Tf  [(Subclase: Usario hereda de Persona.:)] TJ ET
+BT 34.016 759.658 Td /F3 12.0 Tf  [(Atributos:)] TJ ET
+BT 34.016 747.208 Td /F3 12.0 Tf  [(    #+solicitudes: List<Solicitude>)] TJ ET
+BT 34.016 734.758 Td /F3 12.0 Tf  [(    +citasProgramadas: List<Cita>)] TJ ET
+BT 34.016 722.307 Td /F3 12.0 Tf  [(    +tasas: List<Tasa>)] TJ ET
+BT 34.016 709.857 Td /F3 12.0 Tf  [(    +notificacionesRecibidas: List<Notififacion>)] TJ ET
+BT 34.016 697.407 Td /F3 12.0 Tf  [(    +conversacionesChatbot: List<Conversaciones>)] TJ ET
+BT 34.016 684.957 Td /F3 12.0 Tf  [(Métodos:)] TJ ET
+BT 34.016 672.506 Td /F3 12.0 Tf  [(    crearCuentaUsario\(String dni, String correo,String contrasenas, String 2fa\))] TJ ET
+BT 34.016 660.056 Td /F3 12.0 Tf  [(    +pedirCita\(\))] TJ ET
+BT 34.016 647.606 Td /F3 12.0 Tf  [(    +pagarTasa\(\):Boolean)] TJ ET
+BT 34.016 635.156 Td /F3 12.0 Tf  [(    +hacerSolicitude\(\))] TJ ET
+BT 34.016 609.261 Td /F2 12.0 Tf  [(Subclase: Empleado hereda de Persona. :)] TJ ET
+BT 34.016 584.449 Td /F3 12.0 Tf  [(Atributos:)] TJ ET
+BT 34.016 571.999 Td /F3 12.0 Tf  [(    #+solicitudesAttribuidas: List<Solicitude>,)] TJ ET
+BT 34.016 559.549 Td /F3 12.0 Tf  [(Métodos:)] TJ ET
+BT 34.016 547.099 Td /F3 12.0 Tf  [(    crearCuentaEmpleado\(String dni, String correo,String contrasenas, String 2fa\))] TJ ET
+BT 34.016 534.648 Td /F3 12.0 Tf  [(    +verSolicitudes:Boolean)] TJ ET
+BT 34.016 522.198 Td /F3 12.0 Tf  [(    +buscarSolicitudes:Boolean)] TJ ET
+BT 34.016 509.748 Td /F3 12.0 Tf  [(    +rechazarSolicitude:Boolean)] TJ ET
+BT 34.016 497.298 Td /F3 12.0 Tf  [(    +aprobarSolicitude:Boolean)] TJ ET
+BT 34.016 471.403 Td /F2 12.0 Tf  [(Clase: Solicitude:)] TJ ET
+BT 34.016 446.591 Td /F3 12.0 Tf  [(Atributos:)] TJ ET
+BT 34.016 434.141 Td /F3 12.0 Tf  [(    -id: Int)] TJ ET
+BT 34.016 421.691 Td /F3 12.0 Tf  [(    -idUsario: int)] TJ ET
+BT 34.016 409.241 Td /F3 12.0 Tf  [(    -idEmpleado: Empleado)] TJ ET
+BT 34.016 396.791 Td /F3 12.0 Tf  [(    -tipoSolicitude: Int)] TJ ET
+BT 34.016 384.340 Td /F3 12.0 Tf  [(    -documentos: List<Documento>)] TJ ET
+BT 34.016 371.890 Td /F3 12.0 Tf  [(    -estado: Int)] TJ ET
+BT 34.016 359.440 Td /F3 12.0 Tf  [(    -categoria: Int)] TJ ET
+BT 34.016 346.990 Td /F3 12.0 Tf  [(    -tasaAssociadas: list<Tasa>)] TJ ET
+BT 34.016 334.539 Td /F3 12.0 Tf  [(Métodos:)] TJ ET
+BT 34.016 322.089 Td /F3 12.0 Tf  [(    -crearSolicitude\(\):Boolean)] TJ ET
+BT 34.016 309.639 Td /F3 12.0 Tf  [(    -modificarSolicitude\(\):Boolean)] TJ ET
+BT 34.016 283.744 Td /F2 12.0 Tf  [(Clase: Seguridad)] TJ ET
+BT 34.016 258.933 Td /F3 12.0 Tf  [(    Atributos:)] TJ ET
+BT 34.016 246.482 Td /F3 12.0 Tf  [(    Métodos:)] TJ ET
+BT 34.016 234.032 Td /F3 12.0 Tf  [(    +cifrarDatos\(\): Boolean;)] TJ ET
+BT 34.016 221.582 Td /F3 12.0 Tf  [(    +verificarDatos\(\): Boolean;)] TJ ET
+BT 34.016 195.687 Td /F2 12.0 Tf  [(Clase: Autenticación)] TJ ET
+BT 34.016 170.876 Td /F3 12.0 Tf  [(    Atributos:)] TJ ET
+BT 34.016 158.425 Td /F3 12.0 Tf  [(    -id: Int)] TJ ET
+BT 34.016 145.975 Td /F3 12.0 Tf  [(    -idUsuario: Int)] TJ ET
+BT 34.016 133.525 Td /F3 12.0 Tf  [(    -contrasenaUsuario: String)] TJ ET
+BT 34.016 121.075 Td /F3 12.0 Tf  [(    -rolUsuario: String)] TJ ET
+BT 34.016 108.624 Td /F3 12.0 Tf  [(    Métodos:)] TJ ET
+BT 34.016 96.174 Td /F3 12.0 Tf  [(    +validarCredenciales\(\): Boolean)] TJ ET
+BT 34.016 83.724 Td /F3 12.0 Tf  [(    +cambiarContrasena\(String contrasenaNueva\): Boolean)] TJ ET
+BT 34.016 71.274 Td /F3 12.0 Tf  [(    +recuperarContrasena\(String mailUsuario, int numeroIntentosEntrarContrasena\): Boolean)] TJ ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Contents 14 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 2931 >>
+stream
+
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+BT 34.016 784.469 Td /F2 12.0 Tf  [(Clase: Documento)] TJ ET
+BT 34.016 759.658 Td /F3 12.0 Tf  [(Atributos:)] TJ ET
+BT 34.016 747.208 Td /F3 12.0 Tf  [(    +id:Int,)] TJ ET
+BT 34.016 734.758 Td /F3 12.0 Tf  [(    +fechaCreacion: Date,)] TJ ET
+BT 34.016 722.307 Td /F3 12.0 Tf  [(    +author: Int)] TJ ET
+BT 34.016 709.857 Td /F3 12.0 Tf  [(    +contenido: File)] TJ ET
+BT 34.016 697.407 Td /F3 12.0 Tf  [(Métodos:)] TJ ET
+BT 34.016 684.957 Td /F3 12.0 Tf  [(    +crearDocumento\(\): Boolean)] TJ ET
+BT 34.016 672.506 Td /F3 12.0 Tf  [(    +subirDocumento\(\): Boolean)] TJ ET
+BT 34.016 646.612 Td /F2 12.0 Tf  [(Clase: Cita:)] TJ ET
+BT 34.016 621.800 Td /F3 12.0 Tf  [(Atributos:)] TJ ET
+BT 34.016 609.350 Td /F3 12.0 Tf  [(    -id:Int)] TJ ET
+BT 34.016 596.900 Td /F3 12.0 Tf  [(    -fecha:Date)] TJ ET
+BT 34.016 584.449 Td /F3 12.0 Tf  [(    -codigoTipo:Int)] TJ ET
+BT 34.016 571.999 Td /F3 12.0 Tf  [(    -codigoLugar:Int)] TJ ET
+BT 34.016 559.549 Td /F3 12.0 Tf  [(Métodos:)] TJ ET
+BT 34.016 547.099 Td /F3 12.0 Tf  [(    -crearCita\(\))] TJ ET
+BT 34.016 534.648 Td /F3 12.0 Tf  [(    -cancelarCita\(\):Boolean)] TJ ET
+BT 34.016 508.754 Td /F2 12.0 Tf  [(Clase: Tasa:)] TJ ET
+BT 34.016 483.942 Td /F3 12.0 Tf  [(Atributos:)] TJ ET
+BT 34.016 471.492 Td /F3 12.0 Tf  [(    -id:Int)] TJ ET
+BT 34.016 459.042 Td /F3 12.0 Tf  [(    -fecha:Date)] TJ ET
+BT 34.016 446.591 Td /F3 12.0 Tf  [(    -estado: Int)] TJ ET
+BT 34.016 434.141 Td /F3 12.0 Tf  [(    -referenciaPago: String)] TJ ET
+BT 34.016 421.691 Td /F3 12.0 Tf  [(    -notification: Notificación)] TJ ET
+BT 34.016 409.241 Td /F3 12.0 Tf  [(Métodos:)] TJ ET
+BT 34.016 396.791 Td /F3 12.0 Tf  [(    -crearTasa\(\))] TJ ET
+BT 34.016 384.340 Td /F3 12.0 Tf  [(    -pagarTasa\(\))] TJ ET
+BT 34.016 371.890 Td /F3 12.0 Tf  [(    -notificarTasa\(\):Boolean)] TJ ET
+BT 34.016 345.995 Td /F2 12.0 Tf  [(Clase: Notificación:)] TJ ET
+BT 34.016 321.184 Td /F3 12.0 Tf  [(Atributos:)] TJ ET
+BT 34.016 308.734 Td /F3 12.0 Tf  [(    -id:Int)] TJ ET
+BT 34.016 296.283 Td /F3 12.0 Tf  [(    -fecha: Date)] TJ ET
+BT 34.016 283.833 Td /F3 12.0 Tf  [(    -texto: String)] TJ ET
+BT 34.016 271.383 Td /F3 12.0 Tf  [(Métodos:)] TJ ET
+BT 34.016 258.933 Td /F3 12.0 Tf  [(    +enviarNotificacion\(Int idUsario, Date fecha, Texto\):Boolean)] TJ ET
+BT 34.016 217.553 Td /F1 24.0 Tf  [(A CAMBIAR EN UNA)] TJ ET
+BT 34.016 184.366 Td /F2 12.0 Tf  [(Clase: FAQ:)] TJ ET
+BT 34.016 159.554 Td /F3 12.0 Tf  [(Atributos:)] TJ ET
+BT 34.016 147.104 Td /F3 12.0 Tf  [(    -faq:List<PreguntaRespuestaPair>)] TJ ET
+BT 34.016 134.654 Td /F3 12.0 Tf  [(    -PreguntaRespuestaPair: String[])] TJ ET
+BT 34.016 122.204 Td /F3 12.0 Tf  [(Métodos:)] TJ ET
+BT 34.016 109.753 Td /F3 12.0 Tf  [(    createPreguntaRespuesta\(\))] TJ ET
+BT 34.016 97.303 Td /F3 12.0 Tf  [(    editPreguntaRespuesta\(\))] TJ ET
+BT 34.016 84.853 Td /F3 12.0 Tf  [(    removePreguntaRespuesta\(\))] TJ ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Contents 16 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 3086 >>
+stream
+
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+BT 34.016 784.469 Td /F2 12.0 Tf  [(Clase: Conversacion)] TJ ET
+BT 34.016 759.658 Td /F3 12.0 Tf  [(Atributos:)] TJ ET
+BT 34.016 747.208 Td /F3 12.0 Tf  [(    id:Int)] TJ ET
+BT 34.016 734.758 Td /F3 12.0 Tf  [(    fecha:Date)] TJ ET
+BT 34.016 722.307 Td /F3 12.0 Tf  [(Métodos:)] TJ ET
+BT 34.016 709.857 Td /F3 12.0 Tf  [(    crearConversacion\(String\))] TJ ET
+BT 34.016 697.407 Td /F3 12.0 Tf  [(    updateConversacion\(String\))] TJ ET
+BT 34.016 671.512 Td /F2 12.0 Tf  [(Clase: Chatbot)] TJ ET
+BT 34.016 646.701 Td /F3 12.0 Tf  [(    Atributos:conversaciones:)] TJ ET
+BT 34.016 634.250 Td /F3 12.0 Tf  [(            List<Conversacion>)] TJ ET
+BT 34.016 621.800 Td /F3 12.0 Tf  [(Métodos:)] TJ ET
+BT 34.016 609.350 Td /F3 12.0 Tf  [(    +addConversacion\(\):Boolean)] TJ ET
+BT 34.016 596.900 Td /F3 12.0 Tf  [(    +updateConversacion\(\):Boolean)] TJ ET
+BT 34.016 571.005 Td /F2 12.0 Tf  [(Clase: Cita)] TJ ET
+BT 34.016 546.193 Td /F3 12.0 Tf  [(    Atributos:)] TJ ET
+BT 34.016 533.743 Td /F3 12.0 Tf  [(    -idCita:Int)] TJ ET
+BT 34.016 521.293 Td /F3 12.0 Tf  [(    -idUsario: Usario)] TJ ET
+BT 34.016 508.843 Td /F3 12.0 Tf  [(    -fecha:Date)] TJ ET
+BT 34.016 496.392 Td /F3 12.0 Tf  [(    -tipoCita:Int)] TJ ET
+BT 34.016 483.942 Td /F3 12.0 Tf  [(    -tipôLugar:Int)] TJ ET
+BT 34.016 471.492 Td /F3 12.0 Tf  [(    Tipos:)] TJ ET
+BT 34.016 459.042 Td /F3 12.0 Tf  [(    +crearCita\(\): Boolean # Con)] TJ ET
+BT 34.016 446.591 Td /F3 12.0 Tf  [(    +verificarDisponibilidad\(\):Boolean)] TJ ET
+BT 34.016 434.141 Td /F3 12.0 Tf  [(    +cancelarCita\(\):Boolean)] TJ ET
+BT 34.016 421.691 Td /F3 12.0 Tf  [(    +generarNotificacion\(\):Boolean)] TJ ET
+BT 34.016 395.796 Td /F2 12.0 Tf  [(Clase: Planning:)] TJ ET
+BT 34.016 370.985 Td /F3 12.0 Tf  [(Atributos:)] TJ ET
+BT 34.016 358.535 Td /F3 12.0 Tf  [(    Citas: list<Cita>)] TJ ET
+BT 34.016 346.084 Td /F3 12.0 Tf  [(Métodos:)] TJ ET
+BT 34.016 333.634 Td /F3 12.0 Tf  [(    +anadirCita\(Cita planning\):Boolean)] TJ ET
+BT 34.016 321.184 Td /F3 12.0 Tf  [(    +eliminarCita\(Cita planning\):Boolean)] TJ ET
+BT 34.016 308.734 Td /F3 12.0 Tf  [(    +mostrarPlanning\(\):Boolean)] TJ ET
+BT 34.016 282.839 Td /F2 12.0 Tf  [(Clase: Registro:)] TJ ET
+BT 34.016 258.027 Td /F3 12.0 Tf  [(Atributos:)] TJ ET
+BT 34.016 245.577 Td /F3 12.0 Tf  [(    Solicitudes: list<Solicitude>)] TJ ET
+BT 34.016 233.127 Td /F3 12.0 Tf  [(    Métodos:)] TJ ET
+BT 34.016 220.677 Td /F3 12.0 Tf  [(    +anadirSolicitude\(\))] TJ ET
+BT 34.016 208.226 Td /F3 12.0 Tf  [(    +buscarSolicitude\(\))] TJ ET
+BT 34.016 195.776 Td /F3 12.0 Tf  [(    +verSolicitudes\(\))] TJ ET
+BT 34.016 183.326 Td /F3 12.0 Tf  [(    +publlicarReport:Boolean)] TJ ET
+BT 34.016 157.431 Td /F2 12.0 Tf  [(Clase: Contabilidad)] TJ ET
+BT 34.016 132.620 Td /F3 12.0 Tf  [(Atributos:)] TJ ET
+BT 34.016 120.169 Td /F3 12.0 Tf  [(    Tasas: list<Tasa>)] TJ ET
+BT 34.016 107.719 Td /F3 12.0 Tf  [(    Métodos:)] TJ ET
+BT 34.016 95.269 Td /F3 12.0 Tf  [(    +anadirTasa\(\))] TJ ET
+BT 34.016 82.819 Td /F3 12.0 Tf  [(    +publicarReport\(\))] TJ ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Contents 18 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 1836 >>
+stream
+
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+BT 34.016 784.469 Td /F2 12.0 Tf  [(Clase: Personas)] TJ ET
+BT 34.016 759.658 Td /F3 12.0 Tf  [(Atributos:)] TJ ET
+BT 34.016 747.208 Td /F3 12.0 Tf  [(    -personas:List<Persona>)] TJ ET
+BT 34.016 734.758 Td /F3 12.0 Tf  [(    Métodos:)] TJ ET
+BT 34.016 722.307 Td /F3 12.0 Tf  [(    +anadirPersona\(Persona personas\))] TJ ET
+BT 34.016 709.857 Td /F3 12.0 Tf  [(    +elimidarPersona\(Persona personas\))] TJ ET
+BT 34.016 697.407 Td /F3 12.0 Tf  [(    +publicarReport\(\))] TJ ET
+BT 34.016 669.573 Td /F1 14.0 Tf  [(Relaciones \(Cardinalidad\):)] TJ ET
+BT 34.016 642.832 Td /F2 12.0 Tf  [(Usario - Solicitude: 0.._ Usario - Cita: 0.._ Usario - Tasa: 0.._ Usario - Notificación: 0.._ Empleado - )] TJ ET
+BT 34.016 628.576 Td /F2 12.0 Tf  [(Solicitudes: 0.._ Solicitude - Tasa: 0.._ Solicitude - Documento: 0.._ Registro - Solicitudes 1.._ Tasa - Pago: )] TJ ET
+BT 34.016 614.320 Td /F2 12.0 Tf  [(0..1 Tasa - Notificacion 0.._ Empleado - PreguntaRespuesta 10.._ FAQ - PreguntaRespuesta 0.._ Personnas - )] TJ ET
+BT 34.016 600.064 Td /F2 12.0 Tf  [(Persona 1.._ Planning - Cita 1.._ Contabilidad - Tasa 1.._)] TJ ET
+BT 34.016 571.870 Td /F1 14.0 Tf  [(Tipos de relaciones:)] TJ ET
+BT 34.016 545.129 Td /F2 12.0 Tf  [(Persona - Usario: herencia)] TJ ET
+BT 34.016 518.873 Td /F2 12.0 Tf  [(Persona - Empleado: herencia)] TJ ET
+BT 34.016 492.617 Td /F2 12.0 Tf  [(Planning - Cita : Composición.)] TJ ET
+BT 34.016 466.361 Td /F2 12.0 Tf  [(Registro - Solicitude: Composición.)] TJ ET
+BT 34.016 440.105 Td /F2 12.0 Tf  [(Contabilidad - Tasa: Composición.)] TJ ET
+BT 34.016 413.849 Td /F2 12.0 Tf  [(FAQ - Pregunta : Composición.)] TJ ET
+BT 34.016 387.593 Td /F2 12.0 Tf  [(Reporte - Planning,Registro,Contabilidad : Composición)] TJ ET
+BT 34.016 361.337 Td /F2 12.0 Tf  [(El resto Asociación.)] TJ ET
+endstream
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000000009 00000 n 
+0000000074 00000 n 
+0000000120 00000 n 
+0000000323 00000 n 
+0000000352 00000 n 
+0000000466 00000 n 
+0000000529 00000 n 
+0000013401 00000 n 
+0000013509 00000 n 
+0000013618 00000 n 
+0000013724 00000 n 
+0000013789 00000 n 
+0000017481 00000 n 
+0000017546 00000 n 
+0000020530 00000 n 
+0000020595 00000 n 
+0000023734 00000 n 
+0000023799 00000 n 
+trailer
+<<
+/Size 19
+/Root 1 0 R
+/Info 5 0 R
+>>
+startxref
+25688
+%%EOF

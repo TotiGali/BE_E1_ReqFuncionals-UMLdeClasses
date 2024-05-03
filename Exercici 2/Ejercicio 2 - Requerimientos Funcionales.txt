@@ -1,0 +1,88 @@
+Ejercicio 2:
+
+
+Requerimientos Funcionales:
+
+Inscripción en cursos: Los estudiantes se deben poder inscribir en cursos a través del sistema.
+
+Acceder a materiales de Estudio: Los estudiantes deben poder acceder a los materiales de estudio.
+
+Gestión de los materiales de Estudio: Los profesores deben poder gestionar los materiales de estudio.
+
+Envío y gestión de tareas: Los estudiantes deben poder enviar y recibir tareas y poner comentarios en las que envían. Los profesores deben poder asignar y calificar las tareas.
+
+Publicación de calificaciones: Los profesores publican calificaciones y los estudiantes reciben calificaciones. Incluir apartado de comentarios a modo de feedback.
+
+Publicación de resultados finales: Los profesores deben poder publicar los resultados finales y los estudiantes deben poder recbir dichos resultados.
+
+Foro de discusión: Los profesores y estudiantes deben poder interactuar con el foro. La interacción debe incluir: Publicar, Eliminar, Modificar publicacione y Resposder. 
+
+Integración con sistema externos: El sistema debe ser capaz de integrarse con plataformas externas y bases de datos.
+
+Creación de una cuenta: El sistema debe permitir crearse una cuenta en el propio sistema.
+
+Cursos: Los cursos deben poder contener materiales, calificaciones, tareas, examenes. Y dado el caso, permitir clases en streaming (confirmar).
+
+
+
+
+
+Requisitos no funcionales:
+
+
+Usabilidad: Inerfaz intuitiva, fácil de usar y un diseño responsivo adaptado a mobiles, tables y computadores. Y accesible desde distintos navegadores.
+
+Seguridad: Autenticación de dos factores para todos los usuarios y encriptación de datos sensibles.
+
+Rendimiento: Tiempos de respuesta del sistema iguales o inferiores a 3 segundos.
+
+Disponibilidad: Accesibilidad continua con un tiempo de actividad 99.9%
+
+Escalabilidad: Capacidad de manejar un aumento en el número de usuarios y cursos eficientemente.
+
+
+
+
+
+
+
+
+
+Ambiguedades/Recomendaciones: 
+
+En el foro de discusión se puede filtar por tipos de temas, carreras, topicos, etc.
+
+El foro debe tener una moderación para palabras malsonantes o temas inapropiados?
+
+En el foro los profesores seran admins?
+
+Existen otros roles a parte de profesores y estudiantes? Y un estudiante tamibén puede ser profesor a la vez? Debe existir algun administrador del sistema o por areas?
+
+Como se gestiona la integración con plataformas y bases de datos externas.
+
+Qué plataforma de e-learning y bases de datos se van a integrar? (Puede que no se sepan todas desde un inicio, pero las que sepan que nos las digan).
+
+Se debe incluir un buscador por areas, libros, cursos, etc?
+
+Se quiere incluir un chat para facilitar la comunicación estudiante-profesor?
+
+Se quiere incluir un chat entre estudiantes?
+
+Que información se requiere de cada usuario.
+
+Como se gestionan las bajas, eccedencias, etc.
+
+Como se gestionan las susticiones? Una asignatura puede tener más de un profesor?
+
+Quieres que el usuario cree una cuenta? O que una vez inscrito en la universidad se cree automaticamente?
+
+
+Formatos de Materiales y Examenes?
+
+Com ose realizan las entregas? Con links, con updates, archivos, audio, video?
+
+La plataforma debe poder permitir clases en streaming?
+
+Recomendación no funcional: Contratación de servidores externos.
+
+La asistencia a clase es obligatoria? Se debe controlar el acceso a clase?
